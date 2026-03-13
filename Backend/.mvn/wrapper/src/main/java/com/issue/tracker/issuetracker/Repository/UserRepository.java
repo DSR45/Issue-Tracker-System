@@ -12,11 +12,6 @@ import org.springframework.stereotype.Repository;
 import com.issue.tracker.Model.User;
 
 
-
-
-
-
-
 @Repository
 public class UserRepository {
 

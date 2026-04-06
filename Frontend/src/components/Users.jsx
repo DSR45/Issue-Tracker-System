@@ -7,7 +7,7 @@ function Users({load,showDiv,id,loadData}){
 
     async function loadUsers(){
         const data=await getUsers();
-        console.log(data);
+        
         setUsers(data);
     }
     

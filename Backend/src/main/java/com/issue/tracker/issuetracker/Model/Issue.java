@@ -1,4 +1,6 @@
-package com.issue.tracker.Model;
+package com.issue.tracker.issuetracker.Model;
+
+
 
 
 

@@ -14,7 +14,7 @@ function App(){
   
 
   function openSortData(){
-  console.log("Before sort:", data);
+  
 
   const newData = [...data].sort((a,b)=>{
     if(a.status.toUpperCase() === "OPEN" && b.status.toUpperCase() === "RESOLVED"){
@@ -26,12 +26,12 @@ function App(){
     return 0;
   });
 
-  console.log("After sort:", newData);
+  
 
   setData(newData);
 }
   function resolveSortData(){
-  console.log("Before sort:", data);
+  
 
   const newData = [...data].sort((a,b)=>{
     if(a.status.toUpperCase() === "OPEN" && b.status.toUpperCase() === "RESOLVED"){
@@ -43,7 +43,7 @@ function App(){
     return 0;
   });
 
-  console.log("After sort:", newData);
+  
 
   setData(newData);
 }

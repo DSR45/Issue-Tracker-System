@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
-import com.issue.tracker.Model.Issue;
-import com.issue.tracker.Model.User;
+import com.issue.tracker.issuetracker.Model.Issue;
+import com.issue.tracker.issuetracker.Model.User;
 
 import tools.jackson.databind.ObjectMapper;
 

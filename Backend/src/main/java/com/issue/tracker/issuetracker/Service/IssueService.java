@@ -6,8 +6,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.issue.tracker.Model.Issue;
-import com.issue.tracker.Model.User;
+import com.issue.tracker.issuetracker.Model.Issue;
+import com.issue.tracker.issuetracker.Model.User;
 import com.issue.tracker.issuetracker.Repository.IssueRepository;
 
 

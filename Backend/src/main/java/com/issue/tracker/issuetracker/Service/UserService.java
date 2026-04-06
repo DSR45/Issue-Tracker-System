@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.issue.tracker.Model.User;
+import com.issue.tracker.issuetracker.Model.User;
 import com.issue.tracker.issuetracker.Repository.UserRepository;
 
 

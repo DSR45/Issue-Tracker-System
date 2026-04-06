@@ -6,7 +6,7 @@ async function getIssues(){
             throw new Error("Unable to fetch Issues");                
     }
     const result= await response.json();
-    console.log(result);
+    
     return result;
 
     }

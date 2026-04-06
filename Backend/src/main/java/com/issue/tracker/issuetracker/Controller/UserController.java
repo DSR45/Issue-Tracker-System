@@ -3,7 +3,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.issue.tracker.Model.User;
+import com.issue.tracker.issuetracker.Model.User;
 import com.issue.tracker.issuetracker.Service.UserService;
 import java.util.List;
 import org.springframework.http.ResponseEntity;

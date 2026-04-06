@@ -14,10 +14,13 @@ function Footer(){
         <a href="https://linkedin.com/in/divyanshu-singh-184a03370" target="_blank">
        <FaLinkedin size={25}/> 
        </a>
-       
+       <a href="https://www.instagram.com/thakur__dsr/" target="_blank">
        <FaInstagram size={25} onClick={()=>{}}/>
+       </a>
+       
         </span>
        <span className="flex gap-5">
+        
         <p>terms</p>
        <p>policy</p>
        <p>About</p>

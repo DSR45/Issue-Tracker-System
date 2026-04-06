@@ -5,7 +5,7 @@ export default function Card({assign,user,show}){
    
     function handlerClick(){
         assign(user)
-        console.log(user)
+        
         show(false);
     }
    

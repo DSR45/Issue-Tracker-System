@@ -1,4 +1,4 @@
-package com.issue.tracker.Model;
+package com.issue.tracker.issuetracker.Model;
 
 public class User {
     private int id;
@@ -24,3 +24,4 @@ public class User {
         this.name = name;
     }
 }
+

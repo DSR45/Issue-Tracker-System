@@ -4,7 +4,7 @@ function IssueCard({name,desc,status,showUsers,id,setId,user,loadData}){
     
      async function handlerClick(){
        const result=await resolve(id);
-       console.log(result);
+       
        if(result==0){
         loadData();
        }

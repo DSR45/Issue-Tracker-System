@@ -36,6 +36,7 @@ public class IssueRepository {
                 while(result.next()){
                         Issue issue=new Issue(result.getString(2),result.getString(3));
                         issue.setId(result.getInt(1));
+                       
                         issue.setStatus(result.getString(4));
                         if(result.getString(5)!=null)
                          issue.setAssignTo(mapper.readValue(result.getString(5), User.class) );
@@ -116,10 +117,11 @@ return issues;
         try (
             Connection conn=DriverManager.getConnection(url, username, password);
             PreparedStatement psmt=conn.prepareStatement("Select * from issues where id=?");
-            ResultSet result=psmt.executeQuery();
+            
     ){
             
             psmt.setInt(1, id);
+            ResultSet result=psmt.executeQuery();
             while(result.next()){
                 Issue issue=new Issue(result.getString(2),result.getString(3));
                         issue.setId(result.getInt(1));

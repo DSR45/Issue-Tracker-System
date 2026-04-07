@@ -43,7 +43,7 @@ public IssueService(IssueRepository repository){
    public Issue Resolve(int id){
         
         if(!String.valueOf(id).isEmpty()&& repository.findById(id)!=null){
-
+            
             repository.setStatus(id, "Resolved");
             Issue issue=repository.findById(id);
             return issue;
@@ -70,6 +70,7 @@ public IssueService(IssueRepository repository){
 
    //return all the issues;
    public List<Issue> listAll(){
+      
         return repository.getAll();
    }
     

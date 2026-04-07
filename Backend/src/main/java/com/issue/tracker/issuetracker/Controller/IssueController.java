@@ -58,6 +58,7 @@ public IssueController(IssueService service){
 
     @PutMapping("/resolve/{id}")
     public ResponseEntity<Issue> resolve(@PathVariable int id){
+        
     
             Issue issue=service.Resolve(id);
           if(issue==null){

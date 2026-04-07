@@ -10,6 +10,7 @@ export default function Card({assign,user,show}){
     }
    
     return <div className=" rounded-md flex shadow-md bg-[#efdeb176] justify-between p-2 ">
+        
         <h1>{user.name.toUpperCase()}</h1>
          <CirclePlus color="green" onClick={handlerClick}/>
     </div>

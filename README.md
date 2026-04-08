@@ -27,7 +27,7 @@ I built this project as part of my backend learning journey. This is my first pr
 ![Website-View](/screenshots/home-view.jpg)
 
 
-![assign-user](/screenshots/assign-user.jpg)
+![assign-user](/screenshots/Assign-User.jpg)
 
 ## 👤 Author
 
